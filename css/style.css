@@ -102,7 +102,7 @@ footer a{
 footer p{
     padding-top: 50px;
 }
-#mainContent{
+.mainContent{
     margin-right: 29px;
     float: right;
     font-size: 10px;
