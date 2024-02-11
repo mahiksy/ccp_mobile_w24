@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Pets</title>
 </head>
 <body>
-    <header>
-        <a href = "index.html">Skip to Main Content</a>
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a class="active"  href = "pets.html">Pets</a></li>
-                <li><a href = "travel.html">Travel</a></li>
-                <li><a href = "recipes.html">Recipes</a></li>
-            </ul>
-        </nav>
-        <h1>Pets</h1>
+    <header id="top">
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a class="active"  href = "pets.html">Pets</a></li>
+                    <li><a href = "travel.html">Travel</a></li>
+                    <li><a href = "recipes.html">Recipes</a></li>
+                </ul>
+            </nav>
+            <h1>Pets</h1>
+        </div>
+        <a id="mainContent" href = "#main">Mian Content</a>
     </header>
-    <main>
+    <main id="main">
         <div class="container">
             <h2>Bacon Q Dog</h2>
             <div class="intro">
@@ -42,7 +45,6 @@
                 <img src="images/bacon_halloween.JPG" alt="Brown labradoodle wearing a pirate costume">
             </div>
             <h3>Likes</h3>
-            <div class="likes">
                 <ul>
                     <li>Belly rubs</li>
                     <li>Playing tug-of-war</li>
@@ -187,5 +189,9 @@
             <!-- Jackie Wolf -->
         </div>
     </main>
+    <footer>
+        <a id="mainContent" href = "#top">Top page</a>
+        <p>&copy; 2024 Makhmal. All rights reserved.</p>
+    </footer>
 </body>
 </html>
