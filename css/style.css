@@ -32,10 +32,11 @@ a:visited{
 }
 ol{
     width: 338px;
+    list-style-type: number;
     text-align: left;
     margin-inline: 20px;
     justify-content: left;
-    padding:15px;
+    padding:20px;
     border-radius: 5px;
 }
 ol li{
